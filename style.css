@@ -37,19 +37,6 @@ h2 {
     width: 18vw;
 }
 
-.maquette {
-    padding: 1vw;
-    width: 28vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 figcaption {
     text-align: center;
-}
-
-hr {
-    color: #737373;
-    line-height: normal;
 }
