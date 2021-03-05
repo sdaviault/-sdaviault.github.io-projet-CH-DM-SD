@@ -1,7 +1,7 @@
 body {
     margin-left: 11vw;
     margin-right: 11vw;
-    margin-top: 10vw;
+    margin-top: 15vw;
     margin-bottom: 6vw;
     font-family: 'Noto Sans', sans-serif;
     color: #1d2326;
@@ -12,17 +12,19 @@ body {
   background-color: white;
   overflow: hidden;
   position: fixed;
-  top: 40px;
+  top: 0px;
   width: 100%;
 }
 
 .topnav a {
     float: left;
+    display: block;
     color: black;
     text-align: center;
     padding: 10px 16px;
+    margin-top: 60px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   /* Change the color of links on hover */
