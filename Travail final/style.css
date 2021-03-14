@@ -62,7 +62,7 @@ h2 {
 
 .images3 {
     padding: 1vw;
-    width: 18vw;
+    width: 17vw;
 }
 
 /* 4 images de large */
@@ -71,8 +71,11 @@ h2 {
     width: 14vw;
 }
 
+
 figcaption {
+    display: table-caption;
     text-align: center;
+    width: 14vw;
 }
 
 .audio {
