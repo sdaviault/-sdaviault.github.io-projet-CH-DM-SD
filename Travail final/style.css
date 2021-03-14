@@ -16,6 +16,7 @@ body {
   width: 100%;
 }
 
+/*Style du menu - top nav a */
 .topnav a {
     float: left;
     display: block;
@@ -27,7 +28,7 @@ body {
     font-size: 30px;
   }
 
-  /* Change the color of links on hover */
+  /* Change the color of links on hover (menu) */
 .topnav a:hover {
     background-color: #958976;
     color: black;
@@ -53,6 +54,7 @@ h2 {
     margin-bottom: 3vw;
 }
 
+
 .images {
     padding: 1vw;
     width: 28vw;
@@ -63,6 +65,26 @@ h2 {
     width: 18vw;
 }
 
+/* 4 images de large */
+.images4 {
+    padding: 1vw;
+    width: 18vw;
+}
+
 figcaption {
     text-align: center;
+}
+
+.audio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5vw; 
+    text-align: center;
+}
+
+.citation {
+    margin-left: 25vw;
+    text-align: right;
 }
