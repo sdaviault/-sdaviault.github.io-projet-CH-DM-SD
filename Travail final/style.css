@@ -1,9 +1,15 @@
+#document {  /* pour que les éléments soient bien répartis sur la page */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     margin-left: 11vw;
     margin-right: 11vw;
     margin-top: 15vw;
     margin-bottom: 6vw;
-    font-family: 'Noto Sans', 'lato', Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: #1d2326;
     font-size: 16; /* ajout D */
     line-height: 1.5; /* ajout D */
@@ -12,7 +18,10 @@ body {
     max-width: 1140px; /* ajout D */
 }
 
-.main {padding:1rem} /* ajout D */
+.main { /* ajout D */
+    padding:1rem;
+    flex:1;
+    } 
 
 /*Style du menu - top nav */
 .topnav {
@@ -117,8 +126,6 @@ figure {
     margin:0
 }
 
-/*  */
-
 
 .images {
     padding: 1vw;
@@ -162,4 +169,15 @@ figcaption {
     text-align: right;
 }
 
+footer {
+  padding: 3px;
+  background: url(footer.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+#footer-texte-gauche {
+text-align: left;
+padding-bottom: 150px;
+}
