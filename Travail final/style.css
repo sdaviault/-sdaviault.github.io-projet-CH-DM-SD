@@ -136,9 +136,14 @@ figure {
     width: 14vw;
 }
 
+#legende-ligne {
+    text-align: left;
+    display: block;
+    font-size: 10;
+}
 
 figcaption {
-    display: table-caption;
+    display: initial;
     text-align: center;
     width: 14vw;
 }
