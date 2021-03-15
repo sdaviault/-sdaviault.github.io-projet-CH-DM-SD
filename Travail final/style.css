@@ -3,9 +3,16 @@ body {
     margin-right: 11vw;
     margin-top: 15vw;
     margin-bottom: 6vw;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', 'lato', Helvetica, sans-serif;
     color: #1d2326;
+    font-size: 16; /* ajout D */
+    line-height: 1.5; /* ajout D */
+    height: 100%; /* ajout D */
+    min-height:100%; /* ajout D */
+    max-width: 1140px; /* ajout D */
 }
+
+.main {padding:1rem} /* ajout D */
 
 /*Style du menu - top nav */
 .topnav {
@@ -28,11 +35,55 @@ body {
     font-size: 30px;
   }
 
+/* Menu Nav – D */
+
+.header-banner {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0 1rem
+}
+
+.logo {
+    color: #000;
+    display: block;
+    font: 2rem serif;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    text-decoration: none
+}
+
+.nav {
+    margin-top: 1.5rem
+}
+
+.nav a {
+    display: block;
+    padding:.5rem
+}
+
+.nav-list {
+    align-items: center;
+    display: flex;
+    flex-wrap:wrap
+}
+
+nav ol, nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0
+}
+
+a {color:#27346D; text-decoration:none}
+
+  
   /* Change the color of links on hover (menu) */
 .topnav a:hover {
     background-color: #958976;
     color: black;
   }
+
 
 h1 {
     color: #958976;
@@ -53,6 +104,20 @@ h2 {
     justify-content: space-between;
     margin-bottom: 3vw;
 }
+
+/* ajout Daphné */
+
+img {
+    height: auto;
+    max-width: 100%;
+    width:auto
+}
+
+figure {
+    margin:0
+}
+
+/*  */
 
 
 .images {
@@ -91,3 +156,5 @@ figcaption {
     margin-left: 25vw;
     text-align: right;
 }
+
+
