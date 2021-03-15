@@ -170,14 +170,13 @@ figcaption {
 }
 
 footer {
-  padding: 3px;
+  padding: 30px;
   background: url(footer.jpg);
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#footer-texte-gauche {
-text-align: left;
-padding-bottom: 150px;
-}
+#texte-footer{
+  padding: 30px;
+  }
