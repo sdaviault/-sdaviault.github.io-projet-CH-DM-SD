@@ -1,11 +1,98 @@
+#document {  /* pour que les éléments soient bien répartis sur la page */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     margin-left: 11vw;
     margin-right: 11vw;
-    margin-top: 6vw;
+    margin-top: 15vw;
     margin-bottom: 6vw;
     font-family: 'Noto Sans', sans-serif;
     color: #1d2326;
+    font-size: 16; /* ajout D */
+    line-height: 1.5; /* ajout D */
+    height: 100%; /* ajout D */
+    min-height:100%; /* ajout D */
+    max-width: 1140px; /* ajout D */
 }
+
+.main { /* ajout D */
+    padding:1rem;
+    flex:1;
+    } 
+
+/*Style du menu - top nav */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+/*Style du menu - top nav a */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    margin-top: 60px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+/* Menu Nav – D */
+
+.header-banner {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0 1rem
+}
+
+.logo {
+    color: #000;
+    display: block;
+    font: 2rem serif;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    text-decoration: none
+}
+
+.nav {
+    margin-top: 1.5rem
+}
+
+.nav a {
+    display: block;
+    padding:.5rem
+}
+
+.nav-list {
+    align-items: center;
+    display: flex;
+    flex-wrap:wrap
+}
+
+nav ol, nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0
+}
+
+a {color:#27346D; text-decoration:none}
+
+  
+  /* Change the color of links on hover (menu) */
+.topnav a:hover {
+    background-color: #958976;
+    color: black;
+  }
+
 
 h1 {
     color: #958976;
@@ -27,6 +114,19 @@ h2 {
     margin-bottom: 3vw;
 }
 
+/* ajout Daphné */
+
+img {
+    height: auto;
+    max-width: 100%;
+    width:auto
+}
+
+figure {
+    margin:0
+}
+
+
 .images {
     padding: 1vw;
     width: 28vw;
@@ -34,9 +134,49 @@ h2 {
 
 .images3 {
     padding: 1vw;
-    width: 18vw;
+    width: 17vw;
+}
+
+/* 4 images de large */
+.images4 {
+    padding: 0,5vw;
+    width: 14vw;
+}
+
+#legende-ligne {
+    text-align: left;
+    display: block;
+    font-size: 10;
 }
 
 figcaption {
+    display: initial;
+    text-align: center;
+    width: 14vw;
+}
+
+.audio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5vw; 
     text-align: center;
 }
+
+.citation {
+    margin-left: 25vw;
+    text-align: right;
+}
+
+footer {
+  padding: 30px;
+  background: url(footer.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#texte-footer{
+  padding: 30px;
+  }
