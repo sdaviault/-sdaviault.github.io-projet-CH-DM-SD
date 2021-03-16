@@ -37,8 +37,8 @@ color:black; /* couleur onglets MENU */
 display: block;
 text-decoration:none; /* enlève soulignement */
 /*margin-right: 75px;*/
-padding:.5rem;  /* ajouter espacement entre les éléments */
-font-size: 1.5rem;
+padding:0.75rem;  /* ajouter espacement entre les éléments */
+font-size: 1.25rem;
 /*text-align: center; pas de changement apparent */
 /*float: left;  pas de changement apparent */
 }
@@ -115,6 +115,10 @@ h2 {
     margin-bottom: 3vw;
 }
 
+.image-page {
+margin-top : 2vw;
+}
+
 .image1 {
     width: 100%;
 }
@@ -131,19 +135,29 @@ h2 {
     width: 14vw;
 }
 
-/*figcaption {
+/*figcaption { /* utiliser plutôt les classes car comme ça on peut avoir différentes mises en page des légendes sur les différentes pages
     display: block;
     text-align: center;
     width: 14vw;
 }*/
 
-.caption-accueil {
+.caption {
     font-style: italic;
     text-align: right;
+    font-size: 1rem;
     color: #708090;
 }
 
-/* Styles de caractères */
+/* FOOTER */
 
+hr {
+    margin-top : 100px;
+}
+footer {
+margin-top : 5vw;
+font-size: smaller;
+color: black
+/*overflow: hidden;  je ne sais pas */
+width: 100%;  /*taille bandeau mais ça décale le texte */
+}   
 
-/* FOOTER
