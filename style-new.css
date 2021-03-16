@@ -1,5 +1,6 @@
 body {
-margin : 15px; /*convertir en mesure vw si tu préfères Sophie*/
+padding: 1vw;
+margin : 5vw; /*convertir en mesure vw si tu préfères Sophie*/
 /*margin : 15vw 10vw (haut droite bas gauche) */
 }
 
@@ -26,14 +27,17 @@ margin-right: 1.5rem;
 margin-top: 1.5rem;
 text-decoration: none;}
 
-.nav {margin-top: 1.5rem /* Pour aligner en haut avec logo*/} 
+.nav {
+margin-top: 1.5rem;
+margin-right: 10vw;
+/* Pour aligner en haut avec logo*/} 
 
 .nav a {
 color:black; /* couleur onglets MENU */
 display: block;
 text-decoration:none; /* enlève soulignement */
-margin-right: 35px;
-/*padding:.5rem;  /* ajouter espacement entre les éléments */
+/*margin-right: 75px;*/
+padding:.5rem;  /* ajouter espacement entre les éléments */
 font-size: 1.5rem;
 /*text-align: center; pas de changement apparent */
 /*float: left;  pas de changement apparent */
@@ -68,10 +72,11 @@ color: #1d2326; /*je ne vois pas la différence avec black*/
 /* max-width: 1140px; /* ajout D */
 }
 
-.sous-titre { /* paramétrage particulier pour le sous-titre de la page d'accueil*/
-color: #958976;
+.message-accueil { /* paramétrage particulier pour le sous-titre de la page d'accueil*/
+color: #708090;
 font-size: 26px;
 font-weight: bold;
+text-align: center;
 }
 
 h1 {
@@ -111,7 +116,7 @@ h2 {
 }
 
 .image1 {
-	padding:0;
+    width: 100%;
 }
 
 .images3 { /* C'est à cause des légendes que les trois images ne sont pas sur la même ligne */
