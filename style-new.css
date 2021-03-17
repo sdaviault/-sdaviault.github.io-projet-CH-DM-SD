@@ -126,7 +126,7 @@ margin-top : 2vw;
 .images3 { /* C'est à cause des légendes que les trois images ne sont pas sur la même ligne */
     margin:0;
     padding: 1vw;
-    width: 17vw;
+    width: 21vw;
 }
 
 .images4 {
@@ -135,11 +135,9 @@ margin-top : 2vw;
     width: 14vw;
 }
 
-/*figcaption { /* utiliser plutôt les classes car comme ça on peut avoir différentes mises en page des légendes sur les différentes pages
-    display: block;
+ .figcaption { /* Figcaption page Inspiration, 3 colonnes */
     text-align: center;
-    width: 14vw;
-}*/
+}
 
 .caption {
     font-style: italic;
