@@ -98,10 +98,11 @@ h2 {
     justify-content: space-between;
     margin-bottom: 5vw; 
     text-align: left;
-} */
+} */ /* Je le laisse ici au cas où, mais ça ne donne rien de pertinent ou d'esthétique */
 
 .citation {
     margin-left: 25vw;
+    margin-bottom: 15vw;
     text-align: right;
 }
 
@@ -123,7 +124,7 @@ margin-top : 2vw;
     width: 100%;
 }
 
-.images3 { /* C'est à cause des légendes que les trois images ne sont pas sur la même ligne */
+.images3 { /* C'est à cause des légendes que les trois images ne sont pas sur la même ligne. Sophie : c'était entre autres à cause de ça ! */
     margin:0;
     padding: 1vw;
     width: 21vw;
