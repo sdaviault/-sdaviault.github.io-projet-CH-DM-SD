@@ -91,14 +91,14 @@ h2 {
     font-weight: lighter;
 }
 
-.audio {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+/*.audio {
+    display: flex; 
+    flex-direction: row; 
+    /*flex-wrap: wrap; 
     justify-content: space-between;
     margin-bottom: 5vw; 
-    text-align: center;
-}
+    text-align: left;
+} */
 
 .citation {
     margin-left: 25vw;
@@ -135,8 +135,10 @@ margin-top : 2vw;
     width: 14vw;
 }
 
- .figcaption { /* Figcaption page Inspiration, 3 colonnes */
+ .caption3 { /* Figcaption page Inspiration, 3 colonnes */
     text-align: center;
+    font-size: 1rem;
+    color: #708090;
 }
 
 .caption {
